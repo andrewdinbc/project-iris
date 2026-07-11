@@ -50,38 +50,38 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-table {
+.table table {
   width: 100%;
   border-collapse: collapse;
 }
 
-thead {
+.table thead {
   background-color: #f5f5f5;
   border-bottom: 2px solid #ddd;
 }
 
-th {
+.table th {
   padding: 1rem;
   text-align: left;
   font-weight: 600;
   color: #333;
 }
 
-td {
+.table td {
   padding: 1rem;
   border-bottom: 1px solid #eee;
 }
 
-tbody tr:hover {
+.table tbody tr:hover {
   background-color: #fafafa;
 }
 
-td a {
+.table td a {
   color: #0070f3;
   text-decoration: none;
   font-weight: 500;
 }
 
-td a:hover {
+.table td a:hover {
   text-decoration: underline;
 }
